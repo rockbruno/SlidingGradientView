@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PlaceholderLoadingView'
-  s.version          = '0.1.0'
+  s.version          = '0.2.1'
   s.summary          = 'Effortlesly create pretty loading screens based on animated placeholder images.'
 
   s.description      = <<-DESC

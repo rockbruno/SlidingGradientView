@@ -6,9 +6,9 @@ private struct Strings {
 }
 
 public final class PlaceholderLoadingView: UIImageView {
-
+    
     let gradientWidth: CGFloat
-    let distance: CGFloat
+    let finalGradientXPosition: CGFloat
     
     private var layerPositionOffset: CGFloat = 0
     
@@ -27,13 +27,13 @@ public final class PlaceholderLoadingView: UIImageView {
     private let gradientView: UIView = UIView()
     
     public init(image: UIImage?,
-         properties: PlaceholderLoadingProperties = .default) {
+                properties: PlaceholderLoadingProperties = .default) {
         gradientWidth = properties.gradientWidth
-        distance = properties.finalGradientXPosition
+        finalGradientXPosition = properties.finalGradientXPosition
         super.init(image: image)
         animationDuration = properties.animationDuration
         properties.gradientColors.forEach {
-            gradientLayer.colors?.append($0.color)
+            gradientLayer.colors?.append($0.color.cgColor)
             gradientLayer.locations?.append($0.location)
         }
         setUp()
@@ -44,6 +44,7 @@ public final class PlaceholderLoadingView: UIImageView {
     }
     
     private func setUp() {
+        contentMode = .scaleToFill
         setupMaskView()
         setupGradientView()
         setupLayer()
@@ -60,6 +61,7 @@ public final class PlaceholderLoadingView: UIImageView {
     }
     
     private func constrainGradientView() {
+        gradientView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             gradientView.topAnchor.constraint(equalTo: topAnchor),
             gradientView.leftAnchor.constraint(equalTo: leftAnchor),
@@ -109,7 +111,7 @@ public final class PlaceholderLoadingView: UIImageView {
         let fromX = -layerPositionOffset
         let fromY = gradientLayer.position.y
         positionAnimation.fromValue = CGPoint(x: fromX, y: fromY)
-        let toX = distance + layerPositionOffset
+        let toX = finalGradientXPosition + layerPositionOffset
         let toY = gradientLayer.position.y
         positionAnimation.toValue = CGPoint(x: toX, y: toY)
         positionAnimation.duration = animationDuration
