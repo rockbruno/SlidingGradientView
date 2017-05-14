@@ -6,7 +6,7 @@ public struct PlaceholderLoadingProperties {
     let finalGradientXPosition: CGFloat
     let animationDuration: TimeInterval
     
-    init(gradientWidth: CGFloat, gradientColors: [GradientColor],
+    public init(gradientWidth: CGFloat, gradientColors: [GradientColor],
          finalGradientXPosition: CGFloat, animationDuration: TimeInterval) {
         self.gradientWidth = gradientWidth
         self.gradientColors = gradientColors
@@ -14,7 +14,7 @@ public struct PlaceholderLoadingProperties {
         self.animationDuration = animationDuration
     }
     
-    static let `default` = PlaceholderLoadingProperties(
+    public static let `default` = PlaceholderLoadingProperties(
                             gradientWidth: UIScreen.main.bounds.width / 2.2,
                             gradientColors: [
                                 GradientColor(

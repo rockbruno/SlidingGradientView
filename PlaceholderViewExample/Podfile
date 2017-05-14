@@ -1,0 +1,5 @@
+use_frameworks!
+
+target ‘PlaceholderViewExample' do
+  pod ‘PlaceholderLoadingView’, :path => '../'
+end

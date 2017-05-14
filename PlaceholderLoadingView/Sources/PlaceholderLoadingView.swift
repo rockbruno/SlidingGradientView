@@ -26,7 +26,7 @@ public final class PlaceholderLoadingView: UIImageView {
     private let maskImageView = UIImageView()
     private let gradientView: UIView = UIView()
     
-    init(image: UIImage?,
+    public init(image: UIImage?,
          properties: PlaceholderLoadingProperties = .default) {
         gradientWidth = properties.gradientWidth
         distance = properties.finalGradientXPosition
