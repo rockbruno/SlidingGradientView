@@ -1,0 +1,6 @@
+framework module Pods_PlaceholderViewExample {
+  umbrella header "Pods-PlaceholderViewExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
