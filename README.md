@@ -1,19 +1,44 @@
-# PlaceholderLoadingView
+# SlidingGradientView
 
-[![Version](https://img.shields.io/cocoapods/v/PlaceholderLoadingView.svg?style=flat)](http://cocoapods.org/pods/PlaceholderLoadingView)
-[![License](https://img.shields.io/cocoapods/l/PlaceholderLoadingView.svg?style=flat)](http://cocoapods.org/pods/PlaceholderLoadingView)
-[![Platform](https://img.shields.io/cocoapods/p/PlaceholderLoadingView.svg?style=flat)](http://cocoapods.org/pods/PlaceholderLoadingView)
+[![Version](https://img.shields.io/cocoapods/v/SlidingGradientView.svg?style=flat)](http://cocoapods.org/pods/SlidingGradientView)
+[![License](https://img.shields.io/cocoapods/l/SlidingGradientView.svg?style=flat)](http://cocoapods.org/pods/SlidingGradientView)
+[![Platform](https://img.shields.io/cocoapods/p/SlidingGradientView.svg?style=flat)](http://cocoapods.org/pods/SlidingGradientView)
 
-Efforleslly create animated loading views based on a placeholder image.
+Effortlessly add sliding gradients to images. This is meant to be used with images that resemble placeholders in order to give the impression that something is loading.
 
-[![Loading](https://i.imgur.com/fARnxgL.gif)](http://cocoapods.org/pods/PlaceholderLoadingView)
+[![Loading](https://i.imgur.com/fARnxgL.gif)](http://cocoapods.org/pods/SlidingGradientView)
+
+# Usage
+```swift
+let image = UIImage(named: "placeholderEvents")
+let placeholderView = SlidingGradientView(image: image)
+//addSubview and constraints
+placeholderView.startAnimating()
+```
+
+## Customization
+
+By default, SlidingGradientView uses a gradient that starts and end at `RGB 248 248 248` and traverses 120% of the image's bounds in 0.7 seconds. You can edit these properties by creating a `GradientProperties` objects.
+
+```swift
+//Use UIColor.white.withAlphaComponent(0) for transparency, not UiColor.clear!
+let gradientColors = [
+                      GradientColor(color: UIColor.white.withAlphaComponent(0), location: 0),
+                      GradientColor(color: UIColor.red, location: 0.5),
+                      GradientColor(color: UIColor.white.withAlphaComponent(0), location: 1)
+                     ]
+let slidingProperties = SlidingProperties(fromPercentage: 50, toPercentage: 100, animationDuration: 3)
+let properties = GradientProperties(gradientWidth: 300, gradientColors: gradientColors, slidingProperties: slidingProperties)
+let placeHolder2 = SlidingGradientView(image: image, properties: properties)
+```
+
 
 # Installation
 
 ### CocoaPods
 
 ```ruby
-pod "PlaceholderLoadingView"
+pod "SlidingGradientView"
 ```
 
 ## Author
@@ -22,4 +47,4 @@ rockbruno, brunorochaesilva@gmail.com
 
 ## License
 
-PlaceholderLoadingView is available under the MIT license. See the LICENSE file for more info.
+SlidingGradientView is available under the MIT license. See the LICENSE file for more info.
