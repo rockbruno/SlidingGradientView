@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/SlidingGradientView.svg?style=flat)](http://cocoapods.org/pods/SlidingGradientView)
 [![Platform](https://img.shields.io/cocoapods/p/SlidingGradientView.svg?style=flat)](http://cocoapods.org/pods/SlidingGradientView)
 
-Effortlessly add sliding gradients to images. This is meant to be used with images that resemble placeholders in order to give the impression that something is loading.
+SlidingGradientView adds a sliding gradients to images in order to give the impression that something is loading. This is mostly meant to be used with images that resemble placeholders.
 
 [![Loading](https://i.imgur.com/fARnxgL.gif)](http://cocoapods.org/pods/SlidingGradientView)
 
@@ -18,7 +18,7 @@ placeholderView.startAnimating()
 
 ## Customization
 
-By default, SlidingGradientView uses a gradient that starts and end at `RGB 248 248 248` and traverses 120% of the image's bounds in 0.7 seconds. You can edit these properties by creating a `GradientProperties` objects.
+By default, SlidingGradientView uses a gradient that starts and end at `RGB 248 248 248` and traverses 120% of the image's bounds in 0.7 seconds. You can edit these properties by creating a `GradientProperties` object like this:
 
 ```swift
 //Use UIColor.white.withAlphaComponent(0) for transparency, not UiColor.clear!
