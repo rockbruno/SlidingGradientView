@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>PlaceholderLoadingView.xcscheme</key>
+		<key>Pods-PlaceholderViewExample.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-PlaceholderViewExample.xcscheme</key>
+		<key>SlidingGradientView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7A1D958ED3C774A30BE20ADF8AA8FCD9</key>
+		<key>0EE717FD1528C7EA51501F0A9EF8E19C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BE0D579608E409A5FA75271A81218291</key>
+		<key>76347100D6C484EA48BC121F62D24C44</key>
 		<dict>
 			<key>primary</key>
 			<true/>

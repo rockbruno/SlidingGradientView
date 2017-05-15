@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7A1D958ED3C774A30BE20ADF8AA8FCD9'
-               BlueprintName = 'PlaceholderLoadingView'
+               BlueprintIdentifier = '0EE717FD1528C7EA51501F0A9EF8E19C'
+               BlueprintName = 'SlidingGradientView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'PlaceholderLoadingView.framework'>
+               BuildableName = 'SlidingGradientView.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

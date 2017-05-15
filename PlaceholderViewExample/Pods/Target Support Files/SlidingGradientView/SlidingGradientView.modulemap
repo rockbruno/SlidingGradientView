@@ -1,0 +1,6 @@
+framework module SlidingGradientView {
+  umbrella header "SlidingGradientView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double PlaceholderLoadingViewVersionNumber;
-FOUNDATION_EXPORT const unsigned char PlaceholderLoadingViewVersionString[];
+FOUNDATION_EXPORT double SlidingGradientViewVersionNumber;
+FOUNDATION_EXPORT const unsigned char SlidingGradientViewVersionString[];
 

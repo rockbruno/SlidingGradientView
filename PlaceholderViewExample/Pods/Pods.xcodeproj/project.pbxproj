@@ -7,124 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53437A0281480D8D0D9BD8C073E5A48E /* PlaceholderLoadingProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC662C12C1E9C37553FA3432BE75A5F /* PlaceholderLoadingProperties.swift */; };
-		78D1108D3585197C23708A196EA04F3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		960DE1F6078AC3E944FF75C8A714BCA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9FCDC788575A466656794B51C5F98859 /* PlaceholderLoadingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D08B29A1BE7D5AE19AF7EBD9A800A45 /* PlaceholderLoadingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEDDD5ECD9284F21BA0F04A7C4B79D73 /* PlaceholderLoadingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 780D2257666534332AA1B7F7559C1ACF /* PlaceholderLoadingView-dummy.m */; };
-		DEC1DEB7CD09A16263490B1195D85FA7 /* Pods-PlaceholderViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23782F9CBAEB074F14F92CFA6BFF19B7 /* Pods-PlaceholderViewExample-dummy.m */; };
-		DF78C71048327A453FDF6779412FA91E /* Pods-PlaceholderViewExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C54901B7260F509AEDE24BDD013AFE0 /* Pods-PlaceholderViewExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFDE7B6C2098277CA0ADF2EDBCF540A9 /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20D95C07EF6DD6931604B9DCF6E7A6 /* GradientColor.swift */; };
-		FE63E458F9AAE9120CA48D9FECECF53E /* PlaceholderLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03E29480523BDD99E2CC77BC85B0C3 /* PlaceholderLoadingView.swift */; };
+		18672892E7CF676514588658B99A1547 /* Pods-PlaceholderViewExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C54901B7260F509AEDE24BDD013AFE0 /* Pods-PlaceholderViewExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1287749061AEB8F528C0037E9A93FE /* SlidingGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E71375DB8B1CD7695F7DC7CBF1F71 /* SlidingGradientView.swift */; };
+		4693D61E1477EF5C68C1E48CFAF5A3EB /* SlidingGradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8B2C14ABF030EF178B351BB7D59D8A /* SlidingGradientView-dummy.m */; };
+		54A6908F4F48B942C080F5091A5F87A0 /* GradientProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06435B36C17A035C7DF50A1EFEBEA5E5 /* GradientProperties.swift */; };
+		8586033DC957DBA0A2CC252B3510631F /* Pods-PlaceholderViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23782F9CBAEB074F14F92CFA6BFF19B7 /* Pods-PlaceholderViewExample-dummy.m */; };
+		A655A978E059096B767BC2F940E234A7 /* SlidingGradientView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A55EBFD5AA75CBCD8B13EB02BE3BECF8 /* SlidingGradientView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8119168C4BEC4889212422223DF3DAA /* SlidingProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2A3F3492F4B7C00C8C9C5A4C1EEA3E /* SlidingProperties.swift */; };
+		DAB28A663519A1F1449977E081A3A360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DB97E90C63289ECD2F2A249BC9BFB91F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E58C78C35985C061B388AD3F2E1DB7A8 /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FE1F5A7CFF1236362D456B9B22B91 /* GradientColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C2F84940AA81CD62544BB6E68526F57F /* PBXContainerItemProxy */ = {
+		FE737DBEF862374663124DBB03C12AEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7A1D958ED3C774A30BE20ADF8AA8FCD9;
-			remoteInfo = PlaceholderLoadingView;
+			remoteGlobalIDString = 0EE717FD1528C7EA51501F0A9EF8E19C;
+			remoteInfo = SlidingGradientView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A20D95C07EF6DD6931604B9DCF6E7A6 /* GradientColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientColor.swift; sourceTree = "<group>"; };
+		06435B36C17A035C7DF50A1EFEBEA5E5 /* GradientProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientProperties.swift; sourceTree = "<group>"; };
 		10B07EE263D2F647B61F6D723183A8BC /* Pods-PlaceholderViewExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlaceholderViewExample-resources.sh"; sourceTree = "<group>"; };
 		161D72A2D72365C358863702D0348DBE /* Pods-PlaceholderViewExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlaceholderViewExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		2359A434ECD8986392C3E4810CF71BF8 /* PlaceholderLoadingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PlaceholderLoadingView-prefix.pch"; sourceTree = "<group>"; };
 		23782F9CBAEB074F14F92CFA6BFF19B7 /* Pods-PlaceholderViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlaceholderViewExample-dummy.m"; sourceTree = "<group>"; };
-		2B03E29480523BDD99E2CC77BC85B0C3 /* PlaceholderLoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlaceholderLoadingView.swift; sourceTree = "<group>"; };
-		3D08B29A1BE7D5AE19AF7EBD9A800A45 /* PlaceholderLoadingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PlaceholderLoadingView-umbrella.h"; sourceTree = "<group>"; };
-		3EE170FD9BB56C76EB3C406FD8E8D4D9 /* PlaceholderLoadingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PlaceholderLoadingView.modulemap; sourceTree = "<group>"; };
+		26273B376DD81763D26268341E432734 /* SlidingGradientView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlidingGradientView.xcconfig; sourceTree = "<group>"; };
 		41A889844ED88A57D93818A028381865 /* Pods-PlaceholderViewExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PlaceholderViewExample.modulemap"; sourceTree = "<group>"; };
-		4F5DB3831B1C78B08D817FF35427D249 /* PlaceholderLoadingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PlaceholderLoadingView.xcconfig; sourceTree = "<group>"; };
-		5BC662C12C1E9C37553FA3432BE75A5F /* PlaceholderLoadingProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlaceholderLoadingProperties.swift; sourceTree = "<group>"; };
+		4F9E71375DB8B1CD7695F7DC7CBF1F71 /* SlidingGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlidingGradientView.swift; sourceTree = "<group>"; };
+		5B6E13FC7F1BD1F938B3595495D6C05D /* SlidingGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SlidingGradientView.framework; path = SlidingGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		603D440B96C9A39D61624962C3177D0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		780D2257666534332AA1B7F7559C1ACF /* PlaceholderLoadingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PlaceholderLoadingView-dummy.m"; sourceTree = "<group>"; };
+		7E8B2C14ABF030EF178B351BB7D59D8A /* SlidingGradientView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlidingGradientView-dummy.m"; sourceTree = "<group>"; };
+		8B2BBA66EA265F49178F5881F033F6B9 /* SlidingGradientView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SlidingGradientView.modulemap; sourceTree = "<group>"; };
 		8C54901B7260F509AEDE24BDD013AFE0 /* Pods-PlaceholderViewExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PlaceholderViewExample-umbrella.h"; sourceTree = "<group>"; };
-		93491A5E0FCBA5070766AD1B9D314B80 /* PlaceholderLoadingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PlaceholderLoadingView.framework; path = PlaceholderLoadingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B51230C8C9F89F7622C40FEC782F7F9 /* Pods-PlaceholderViewExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlaceholderViewExample-frameworks.sh"; sourceTree = "<group>"; };
+		A55EBFD5AA75CBCD8B13EB02BE3BECF8 /* SlidingGradientView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlidingGradientView-umbrella.h"; sourceTree = "<group>"; };
 		AE55AB97825E537C8C00A50F3C51D231 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B71C7E1437F64DD16E542C92B5C7B63B /* Pods_PlaceholderViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PlaceholderViewExample.framework; path = "Pods-PlaceholderViewExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBBF19F45AD76E7F1CBD98B1A8019EED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3A3A4D9B8CA32EB5D5B6D37A555F9B1 /* Pods_PlaceholderViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PlaceholderViewExample.framework; path = "Pods-PlaceholderViewExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2A3F3492F4B7C00C8C9C5A4C1EEA3E /* SlidingProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlidingProperties.swift; sourceTree = "<group>"; };
 		CAE0C89F57B2C622706A6A814A0F5805 /* Pods-PlaceholderViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlaceholderViewExample.release.xcconfig"; sourceTree = "<group>"; };
 		CC07FD4CA2D5DBACB9905DED3B40E4D5 /* Pods-PlaceholderViewExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlaceholderViewExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E04FE1F5A7CFF1236362D456B9B22B91 /* GradientColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientColor.swift; sourceTree = "<group>"; };
 		F89E35238A2BADBCFBA5F64E097DAD96 /* Pods-PlaceholderViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlaceholderViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		FD9B3D629E6E584D99C55663F9612A02 /* SlidingGradientView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlidingGradientView-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B93DE52D24A6098CC120096610CB5F3D /* Frameworks */ = {
+		BB7C6FA5922BC9FF3A97BC216CED949E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				960DE1F6078AC3E944FF75C8A714BCA8 /* Foundation.framework in Frameworks */,
+				DB97E90C63289ECD2F2A249BC9BFB91F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D67F9087012B290D8AD4592A0807E663 /* Frameworks */ = {
+		F387DE2D8D69FEB5306B914A725ADF74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78D1108D3585197C23708A196EA04F3C /* Foundation.framework in Frameworks */,
+				DAB28A663519A1F1449977E081A3A360 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		39D68C51C02637626E285312D8DFB7F3 /* Products */ = {
+		2BB6FF14D0D85CC648309002B21D0A7B /* SlidingGradientView */ = {
 			isa = PBXGroup;
 			children = (
-				93491A5E0FCBA5070766AD1B9D314B80 /* PlaceholderLoadingView.framework */,
-				B71C7E1437F64DD16E542C92B5C7B63B /* Pods_PlaceholderViewExample.framework */,
+				A3FFBB76D65287C54499BE695F9666F8 /* SlidingGradientView */,
+				404C504149E52196DA0F5AF74BA50080 /* Support Files */,
 			);
-			name = Products;
+			name = SlidingGradientView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		5FD8D7B75A3BB66BD7CDB529EBE88A20 /* Support Files */ = {
+		404C504149E52196DA0F5AF74BA50080 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BBBF19F45AD76E7F1CBD98B1A8019EED /* Info.plist */,
-				3EE170FD9BB56C76EB3C406FD8E8D4D9 /* PlaceholderLoadingView.modulemap */,
-				4F5DB3831B1C78B08D817FF35427D249 /* PlaceholderLoadingView.xcconfig */,
-				780D2257666534332AA1B7F7559C1ACF /* PlaceholderLoadingView-dummy.m */,
-				2359A434ECD8986392C3E4810CF71BF8 /* PlaceholderLoadingView-prefix.pch */,
-				3D08B29A1BE7D5AE19AF7EBD9A800A45 /* PlaceholderLoadingView-umbrella.h */,
+				603D440B96C9A39D61624962C3177D0E /* Info.plist */,
+				8B2BBA66EA265F49178F5881F033F6B9 /* SlidingGradientView.modulemap */,
+				26273B376DD81763D26268341E432734 /* SlidingGradientView.xcconfig */,
+				7E8B2C14ABF030EF178B351BB7D59D8A /* SlidingGradientView-dummy.m */,
+				FD9B3D629E6E584D99C55663F9612A02 /* SlidingGradientView-prefix.pch */,
+				A55EBFD5AA75CBCD8B13EB02BE3BECF8 /* SlidingGradientView-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "PlaceholderViewExample/Pods/Target Support Files/PlaceholderLoadingView";
+			path = "PlaceholderViewExample/Pods/Target Support Files/SlidingGradientView";
+			sourceTree = "<group>";
+		};
+		5F43A8DC5E4EDC543928E5A46B0CE169 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E04FE1F5A7CFF1236362D456B9B22B91 /* GradientColor.swift */,
+				06435B36C17A035C7DF50A1EFEBEA5E5 /* GradientProperties.swift */,
+				4F9E71375DB8B1CD7695F7DC7CBF1F71 /* SlidingGradientView.swift */,
+				CA2A3F3492F4B7C00C8C9C5A4C1EEA3E /* SlidingProperties.swift */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		77E5A62AD6A0768839F6BFDF107FB992 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BB6FF14D0D85CC648309002B21D0A7B /* SlidingGradientView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FB43981534C9D733F633E2E702BCB223 /* Development Pods */,
+				77E5A62AD6A0768839F6BFDF107FB992 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				39D68C51C02637626E285312D8DFB7F3 /* Products */,
+				C1DBA15E5D5A44B2037120ECE5ED2DFC /* Products */,
 				9740B202C69FA65F5F1426C6AAF8F5F3 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		84D2A230B13FA4B18B75B53EE051407E /* PlaceholderLoadingView */ = {
-			isa = PBXGroup;
-			children = (
-				86BB551C8E3A4BAD2E0776C57FA1355A /* PlaceholderLoadingView */,
-				5FD8D7B75A3BB66BD7CDB529EBE88A20 /* Support Files */,
-			);
-			name = PlaceholderLoadingView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		86BB551C8E3A4BAD2E0776C57FA1355A /* PlaceholderLoadingView */ = {
-			isa = PBXGroup;
-			children = (
-				AD761AC9CBBDB58585B2E17323D28C88 /* Sources */,
-			);
-			name = PlaceholderLoadingView;
-			path = PlaceholderLoadingView;
 			sourceTree = "<group>";
 		};
 		9740B202C69FA65F5F1426C6AAF8F5F3 /* Targets Support Files */ = {
@@ -153,15 +157,13 @@
 			path = "Target Support Files/Pods-PlaceholderViewExample";
 			sourceTree = "<group>";
 		};
-		AD761AC9CBBDB58585B2E17323D28C88 /* Sources */ = {
+		A3FFBB76D65287C54499BE695F9666F8 /* SlidingGradientView */ = {
 			isa = PBXGroup;
 			children = (
-				0A20D95C07EF6DD6931604B9DCF6E7A6 /* GradientColor.swift */,
-				5BC662C12C1E9C37553FA3432BE75A5F /* PlaceholderLoadingProperties.swift */,
-				2B03E29480523BDD99E2CC77BC85B0C3 /* PlaceholderLoadingView.swift */,
+				5F43A8DC5E4EDC543928E5A46B0CE169 /* Sources */,
 			);
-			name = Sources;
-			path = Sources;
+			name = SlidingGradientView;
+			path = SlidingGradientView;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -172,6 +174,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C1DBA15E5D5A44B2037120ECE5ED2DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3A3A4D9B8CA32EB5D5B6D37A555F9B1 /* Pods_PlaceholderViewExample.framework */,
+				5B6E13FC7F1BD1F938B3595495D6C05D /* SlidingGradientView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,69 +191,61 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FB43981534C9D733F633E2E702BCB223 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				84D2A230B13FA4B18B75B53EE051407E /* PlaceholderLoadingView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B9E475F78D25B841A54EDDEC0B92C7E0 /* Headers */ = {
+		712252FC97A240F86CD4A33886858BD0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FCDC788575A466656794B51C5F98859 /* PlaceholderLoadingView-umbrella.h in Headers */,
+				18672892E7CF676514588658B99A1547 /* Pods-PlaceholderViewExample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DECEF38AC636B9FC98843EECEA71B12E /* Headers */ = {
+		9DCCC6534BACACB0D72097CEA121EBD8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF78C71048327A453FDF6779412FA91E /* Pods-PlaceholderViewExample-umbrella.h in Headers */,
+				A655A978E059096B767BC2F940E234A7 /* SlidingGradientView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7A1D958ED3C774A30BE20ADF8AA8FCD9 /* PlaceholderLoadingView */ = {
+		0EE717FD1528C7EA51501F0A9EF8E19C /* SlidingGradientView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71302DD3A3FE1EE4FDFC54122C95DB4E /* Build configuration list for PBXNativeTarget "PlaceholderLoadingView" */;
+			buildConfigurationList = 508DE151B449A5F4C3EEB1CBCC1C3FB4 /* Build configuration list for PBXNativeTarget "SlidingGradientView" */;
 			buildPhases = (
-				06BAA588EE37AA4BE00E90C321EDE3AF /* Sources */,
-				B93DE52D24A6098CC120096610CB5F3D /* Frameworks */,
-				B9E475F78D25B841A54EDDEC0B92C7E0 /* Headers */,
+				2528377B1735C6D038F8187C5FBFAEB5 /* Sources */,
+				BB7C6FA5922BC9FF3A97BC216CED949E /* Frameworks */,
+				9DCCC6534BACACB0D72097CEA121EBD8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PlaceholderLoadingView;
-			productName = PlaceholderLoadingView;
-			productReference = 93491A5E0FCBA5070766AD1B9D314B80 /* PlaceholderLoadingView.framework */;
+			name = SlidingGradientView;
+			productName = SlidingGradientView;
+			productReference = 5B6E13FC7F1BD1F938B3595495D6C05D /* SlidingGradientView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BE0D579608E409A5FA75271A81218291 /* Pods-PlaceholderViewExample */ = {
+		76347100D6C484EA48BC121F62D24C44 /* Pods-PlaceholderViewExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2B77723844372BAF3877536E19D7E59 /* Build configuration list for PBXNativeTarget "Pods-PlaceholderViewExample" */;
+			buildConfigurationList = 17B823C9BF4C175C4F088585C70FA022 /* Build configuration list for PBXNativeTarget "Pods-PlaceholderViewExample" */;
 			buildPhases = (
-				41C83AB49D1B36B3744F63ABCE95FAFE /* Sources */,
-				D67F9087012B290D8AD4592A0807E663 /* Frameworks */,
-				DECEF38AC636B9FC98843EECEA71B12E /* Headers */,
+				41FC297AA605DEED36CA0D165BA1BF7F /* Sources */,
+				F387DE2D8D69FEB5306B914A725ADF74 /* Frameworks */,
+				712252FC97A240F86CD4A33886858BD0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				40860D6F6FE17B3E783DD54BE64CFA75 /* PBXTargetDependency */,
+				2D8DFBB7ACF964EC0FD7FFB078136D34 /* PBXTargetDependency */,
 			);
 			name = "Pods-PlaceholderViewExample";
 			productName = "Pods-PlaceholderViewExample";
-			productReference = B71C7E1437F64DD16E542C92B5C7B63B /* Pods_PlaceholderViewExample.framework */;
+			productReference = C3A3A4D9B8CA32EB5D5B6D37A555F9B1 /* Pods_PlaceholderViewExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -262,48 +265,122 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 39D68C51C02637626E285312D8DFB7F3 /* Products */;
+			productRefGroup = C1DBA15E5D5A44B2037120ECE5ED2DFC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A1D958ED3C774A30BE20ADF8AA8FCD9 /* PlaceholderLoadingView */,
-				BE0D579608E409A5FA75271A81218291 /* Pods-PlaceholderViewExample */,
+				76347100D6C484EA48BC121F62D24C44 /* Pods-PlaceholderViewExample */,
+				0EE717FD1528C7EA51501F0A9EF8E19C /* SlidingGradientView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		06BAA588EE37AA4BE00E90C321EDE3AF /* Sources */ = {
+		2528377B1735C6D038F8187C5FBFAEB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFDE7B6C2098277CA0ADF2EDBCF540A9 /* GradientColor.swift in Sources */,
-				53437A0281480D8D0D9BD8C073E5A48E /* PlaceholderLoadingProperties.swift in Sources */,
-				AEDDD5ECD9284F21BA0F04A7C4B79D73 /* PlaceholderLoadingView-dummy.m in Sources */,
-				FE63E458F9AAE9120CA48D9FECECF53E /* PlaceholderLoadingView.swift in Sources */,
+				E58C78C35985C061B388AD3F2E1DB7A8 /* GradientColor.swift in Sources */,
+				54A6908F4F48B942C080F5091A5F87A0 /* GradientProperties.swift in Sources */,
+				4693D61E1477EF5C68C1E48CFAF5A3EB /* SlidingGradientView-dummy.m in Sources */,
+				2C1287749061AEB8F528C0037E9A93FE /* SlidingGradientView.swift in Sources */,
+				D8119168C4BEC4889212422223DF3DAA /* SlidingProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41C83AB49D1B36B3744F63ABCE95FAFE /* Sources */ = {
+		41FC297AA605DEED36CA0D165BA1BF7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEC1DEB7CD09A16263490B1195D85FA7 /* Pods-PlaceholderViewExample-dummy.m in Sources */,
+				8586033DC957DBA0A2CC252B3510631F /* Pods-PlaceholderViewExample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		40860D6F6FE17B3E783DD54BE64CFA75 /* PBXTargetDependency */ = {
+		2D8DFBB7ACF964EC0FD7FFB078136D34 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PlaceholderLoadingView;
-			target = 7A1D958ED3C774A30BE20ADF8AA8FCD9 /* PlaceholderLoadingView */;
-			targetProxy = C2F84940AA81CD62544BB6E68526F57F /* PBXContainerItemProxy */;
+			name = SlidingGradientView;
+			target = 0EE717FD1528C7EA51501F0A9EF8E19C /* SlidingGradientView */;
+			targetProxy = FE737DBEF862374663124DBB03C12AEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		067E071992EA6570D6F3B82AFB092998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE0C89F57B2C622706A6A814A0F5805 /* Pods-PlaceholderViewExample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PlaceholderViewExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlaceholderViewExample/Pods-PlaceholderViewExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PlaceholderViewExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1106BDF52E67A91B4DF42F60FE61ED34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26273B376DD81763D26268341E432734 /* SlidingGradientView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlidingGradientView/SlidingGradientView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlidingGradientView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlidingGradientView/SlidingGradientView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SlidingGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -352,78 +429,6 @@
 			};
 			name = Debug;
 		};
-		207AE9B3E896A9D4563391A73E322A80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F5DB3831B1C78B08D817FF35427D249 /* PlaceholderLoadingView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PlaceholderLoadingView/PlaceholderLoadingView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PlaceholderLoadingView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PlaceholderLoadingView/PlaceholderLoadingView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PlaceholderLoadingView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3E78054CCC2403366EE7FBCECF9627E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAE0C89F57B2C622706A6A814A0F5805 /* Pods-PlaceholderViewExample.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PlaceholderViewExample/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PlaceholderViewExample/Pods-PlaceholderViewExample.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PlaceholderViewExample;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		707B86CFB21B645E37109F39754D4051 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -468,42 +473,7 @@
 			};
 			name = Release;
 		};
-		A9A013397D6DD41178D99DD2B179A445 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F5DB3831B1C78B08D817FF35427D249 /* PlaceholderLoadingView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PlaceholderLoadingView/PlaceholderLoadingView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PlaceholderLoadingView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PlaceholderLoadingView/PlaceholderLoadingView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PlaceholderLoadingView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D3BFF4EA113476142CF02EB0C4259996 /* Debug */ = {
+		929380873F8272EFD771DD213974C720 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F89E35238A2BADBCFBA5F64E097DAD96 /* Pods-PlaceholderViewExample.debug.xcconfig */;
 			buildSettings = {
@@ -542,9 +512,52 @@
 			};
 			name = Debug;
 		};
+		E1EE461F2D28C6BB4D546839868CE951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26273B376DD81763D26268341E432734 /* SlidingGradientView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlidingGradientView/SlidingGradientView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlidingGradientView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlidingGradientView/SlidingGradientView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SlidingGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		17B823C9BF4C175C4F088585C70FA022 /* Build configuration list for PBXNativeTarget "Pods-PlaceholderViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929380873F8272EFD771DD213974C720 /* Debug */,
+				067E071992EA6570D6F3B82AFB092998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -554,20 +567,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71302DD3A3FE1EE4FDFC54122C95DB4E /* Build configuration list for PBXNativeTarget "PlaceholderLoadingView" */ = {
+		508DE151B449A5F4C3EEB1CBCC1C3FB4 /* Build configuration list for PBXNativeTarget "SlidingGradientView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9A013397D6DD41178D99DD2B179A445 /* Debug */,
-				207AE9B3E896A9D4563391A73E322A80 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A2B77723844372BAF3877536E19D7E59 /* Build configuration list for PBXNativeTarget "Pods-PlaceholderViewExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D3BFF4EA113476142CF02EB0C4259996 /* Debug */,
-				3E78054CCC2403366EE7FBCECF9627E9 /* Release */,
+				1106BDF52E67A91B4DF42F60FE61ED34 /* Debug */,
+				E1EE461F2D28C6BB4D546839868CE951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,16 +1,16 @@
 PODS:
-  - PlaceholderLoadingView (0.2.1)
+  - SlidingGradientView (0.1.0)
 
 DEPENDENCIES:
-  - PlaceholderLoadingView (from `../`)
+  - SlidingGradientView (from `../`)
 
 EXTERNAL SOURCES:
-  PlaceholderLoadingView:
+  SlidingGradientView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PlaceholderLoadingView: 64c325856b35e79e961ce7249d0eaf33e61c99db
+  SlidingGradientView: c0e9781f7340c130ebfcf3a2e7d6736570355edd
 
-PODFILE CHECKSUM: a1f708d85cbdb86369f3df5385b3879c2dcd54d9
+PODFILE CHECKSUM: 8e66b01b8d79c190fc1bee80fdad7493d5cf86d0
 
 COCOAPODS: 1.2.1

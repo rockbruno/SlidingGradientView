@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## PlaceholderLoadingView
+## SlidingGradientView
 
 Copyright (c) 2017 rockbruno <brunorochaesilva@gmail.com>
 

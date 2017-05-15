@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FD6A903F1EC8845F00AFFA47"
-               BuildableName = "PlaceholderLoadingView.framework"
-               BlueprintName = "PlaceholderLoadingView"
-               ReferencedContainer = "container:PlaceholderLoadingView.xcodeproj">
+               BuildableName = "SlidingGradientView.framework"
+               BlueprintName = "SlidingGradientView"
+               ReferencedContainer = "container:SlidingGradientView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FD6A903F1EC8845F00AFFA47"
-            BuildableName = "PlaceholderLoadingView.framework"
-            BlueprintName = "PlaceholderLoadingView"
-            ReferencedContainer = "container:PlaceholderLoadingView.xcodeproj">
+            BuildableName = "SlidingGradientView.framework"
+            BlueprintName = "SlidingGradientView"
+            ReferencedContainer = "container:SlidingGradientView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FD6A903F1EC8845F00AFFA47"
-            BuildableName = "PlaceholderLoadingView.framework"
-            BlueprintName = "PlaceholderLoadingView"
-            ReferencedContainer = "container:PlaceholderLoadingView.xcodeproj">
+            BuildableName = "SlidingGradientView.framework"
+            BlueprintName = "SlidingGradientView"
+            ReferencedContainer = "container:SlidingGradientView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

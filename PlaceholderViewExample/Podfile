@@ -1,5 +1,5 @@
 use_frameworks!
 
 target ‘PlaceholderViewExample' do
-  pod ‘PlaceholderLoadingView’, :path => '../'
+  pod ‘SlidingGradientView’, :path => '../'
 end

@@ -1,0 +1,23 @@
+{
+  "name": "SlidingGradientView",
+  "version": "0.1.0",
+  "summary": "Easily add sliding gradient effects to images. Meant to be used as loading placeholder views.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rockbruno/SlidingGradientView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rockbruno": "brunorochaesilva@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rockbruno/SlidingGradientView.git",
+    "branch": "master",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SlidingGradientView/Sources/**/*"
+}
