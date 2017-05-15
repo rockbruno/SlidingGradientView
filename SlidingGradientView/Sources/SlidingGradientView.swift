@@ -6,12 +6,12 @@ private struct Strings {
 }
 
 public final class SlidingGradientView: UIImageView {
-
+    
     let gradientWidth: CGFloat
     let slidingProperties: SlidingProperties
-
+    
     private var layerPositionOffset: CGFloat = 0
-
+    
     private let gradientLayer: CAGradientLayer = {
         let gradient = CAGradientLayer()
         gradient.startPoint = CGPoint(x: 0, y: 1)
@@ -22,14 +22,13 @@ public final class SlidingGradientView: UIImageView {
         gradient.isHidden = true
         return gradient
     }()
-
+    
     private let gradientView: UIView = UIView()
-    private let gradientMaskView: UIImageView
-
+    private let gradientMaskView: UIImageView = UIImageView()
+    
     public init(image: UIImage?, properties: GradientProperties = .init()) {
         gradientWidth = properties.gradientWidth
         slidingProperties = properties.slidingProperties
-        gradientMaskView = UIImageView(image: image)
         super.init(image: image)
         properties.gradientColors.forEach {
             gradientLayer.colors?.append($0.color.cgColor)
@@ -37,13 +36,12 @@ public final class SlidingGradientView: UIImageView {
         }
         setUp()
     }
-
+    
     required public init(coder aDecoder: NSCoder) {
         fatalError()
     }
-
+    
     private func setUp() {
-        contentMode = .scaleToFill
         setupMaskView()
         setupGradientView()
         setupLayer()
@@ -51,6 +49,7 @@ public final class SlidingGradientView: UIImageView {
     
     private func setupMaskView() {
         addSubview(gradientMaskView)
+        gradientMaskView.image = image
     }
     
     private func setupGradientView() {
@@ -65,12 +64,12 @@ public final class SlidingGradientView: UIImageView {
             v1.leftAnchor.constraint(equalTo: v2.leftAnchor),
             v1.rightAnchor.constraint(equalTo: v2.rightAnchor),
             v1.bottomAnchor.constraint(equalTo: v2.bottomAnchor)
-        ])
+            ])
     }
     
     private func setupLayer() {
-        gradientView.layer.addSublayer(gradientLayer)
-        gradientView.mask = gradientMaskView
+        gradientView.layer.insertSublayer(gradientLayer, at: 0)
+        gradientView.layer.mask = gradientMaskView.layer
     }
     
     override public func layoutSublayers(of layer: CALayer) {
@@ -106,10 +105,10 @@ public final class SlidingGradientView: UIImageView {
     
     private func addAnimation() {
         let positionAnimation = CABasicAnimation(keyPath: Strings.position)
-        let fromX = self.bounds.size.width * (slidingProperties.fromPercentage/100) - layerPositionOffset
+        let fromX = slidingProperties.fromX - layerPositionOffset
         let fromY = gradientLayer.position.y
         positionAnimation.fromValue = CGPoint(x: fromX, y: fromY)
-        let toX = self.bounds.size.width * (slidingProperties.toPercentage/100) + layerPositionOffset
+        let toX = slidingProperties.toX + layerPositionOffset
         let toY = gradientLayer.position.y
         positionAnimation.toValue = CGPoint(x: toX, y: toY)
         positionAnimation.duration = slidingProperties.animationDuration

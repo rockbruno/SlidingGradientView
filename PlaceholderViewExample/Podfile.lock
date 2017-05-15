@@ -1,5 +1,5 @@
 PODS:
-  - SlidingGradientView (0.2.2)
+  - SlidingGradientView (0.2.3)
 
 DEPENDENCIES:
   - SlidingGradientView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SlidingGradientView: 6c8e07468669f81d58eff703ad6c398da2c8e7aa
+  SlidingGradientView: 7e0c47a25189aa5c915b9f876397727a2e9589ca
 
 PODFILE CHECKSUM: 8e66b01b8d79c190fc1bee80fdad7493d5cf86d0
 

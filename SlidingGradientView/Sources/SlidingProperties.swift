@@ -1,13 +1,13 @@
 import UIKit
 
 public struct SlidingProperties {
-    let fromPercentage: CGFloat
-    let toPercentage: CGFloat
+    let fromX: CGFloat
+    let toX: CGFloat
     let animationDuration: TimeInterval
     
-    public init(fromPercentage: CGFloat = 0, toPercentage: CGFloat = 120, animationDuration: TimeInterval = 0.7) {
-        self.fromPercentage = fromPercentage
-        self.toPercentage = toPercentage
+    public init(fromX: CGFloat = 0, toX: CGFloat = UIScreen.main.bounds.width * 1.2, animationDuration: TimeInterval = 0.7) {
+        self.fromX = fromX
+        self.toX = toX
         self.animationDuration = animationDuration
     }
 }

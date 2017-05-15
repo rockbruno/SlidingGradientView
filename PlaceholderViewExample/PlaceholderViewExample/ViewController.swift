@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         placeHolder.startAnimating()
         
         
-        let slidingProperties = SlidingProperties(fromPercentage: 0, toPercentage: 100, animationDuration: 3)
+        let slidingProperties = SlidingProperties(fromX: 0, toX: UIScreen.main.bounds.width, animationDuration: 3)
         let gradientColors = [GradientColor(color: UIColor.white.withAlphaComponent(0), location: 0),
                               GradientColor(color: UIColor.red, location: 0.5),
                               GradientColor(color: UIColor.white.withAlphaComponent(0), location: 1)]

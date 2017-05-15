@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SlidingGradientView'
-  s.version          = '0.2.2'
+  s.version          = '0.2.3'
   s.summary          = 'Easily add sliding gradient effects to images. Meant to be used as loading placeholder views.'
 
   s.description      = <<-DESC
