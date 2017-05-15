@@ -27,7 +27,7 @@ let gradientColors = [
                       GradientColor(color: UIColor.red, location: 0.5),
                       GradientColor(color: UIColor.white.withAlphaComponent(0), location: 1)
                      ]
-let slidingProperties = SlidingProperties(fromPercentage: 50, toPercentage: 100, animationDuration: 3)
+let slidingProperties = SlidingProperties(fromPercentage: 0, toPercentage: 100, animationDuration: 3)
 let properties = GradientProperties(gradientWidth: 300, gradientColors: gradientColors, slidingProperties: slidingProperties)
 let placeHolder2 = SlidingGradientView(image: image, properties: properties)
 ```
