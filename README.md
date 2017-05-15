@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/SlidingGradientView.svg?style=flat)](http://cocoapods.org/pods/SlidingGradientView)
 [![Platform](https://img.shields.io/cocoapods/p/SlidingGradientView.svg?style=flat)](http://cocoapods.org/pods/SlidingGradientView)
 
-SlidingGradientView adds a sliding gradients to images in order to give the impression that something is loading. This is mostly meant to be used with images that resemble placeholders.
+SlidingGradientView adds a sliding gradient to images in order to give the impression that something is loading. This is mostly meant to be used with images that resemble placeholders.
 
 [![Loading](https://i.imgur.com/fARnxgL.gif)](http://cocoapods.org/pods/SlidingGradientView)
 
