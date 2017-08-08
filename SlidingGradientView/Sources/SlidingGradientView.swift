@@ -5,7 +5,7 @@ private struct Strings {
     static let animationKey = "slide"
 }
 
-public final class SlidingGradientView: UIImageView {
+open class SlidingGradientView: UIImageView {
 
     let gradientWidth: CGFloat
     let slidingProperties: SlidingProperties
@@ -72,20 +72,20 @@ public final class SlidingGradientView: UIImageView {
         gradientView.layer.mask = gradientMaskView.layer
     }
 
-    override public func layoutSublayers(of layer: CALayer) {
+    override open func layoutSublayers(of layer: CALayer) {
         super.layoutSublayers(of: layer)
         gradientLayer.frame = CGRect(x: 0, y: 0, width: gradientWidth, height: gradientView.frame.size.height)
         layerPositionOffset = gradientLayer.position.x
         gradientLayer.position.x = -layerPositionOffset
     }
 
-    override public func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         //Can't constrain masks.
         gradientMaskView.frame = self.bounds
     }
 
-    public override func startAnimating() {
+    open override func startAnimating() {
         guard gradientLayer.animationKeys()?.contains(Strings.animationKey) != true else {
             return
         }
@@ -110,7 +110,7 @@ public final class SlidingGradientView: UIImageView {
         gradientLayer.add(positionAnimation, forKey: Strings.animationKey)
     }
 
-    public override func stopAnimating() {
+    open override func stopAnimating() {
         stopAnimating(fadeOut: false)
     }
 
