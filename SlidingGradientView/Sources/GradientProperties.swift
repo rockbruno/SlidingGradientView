@@ -13,14 +13,14 @@ public struct GradientProperties {
         self.slidingProperties = slidingProperties
     }
     
-    init() {
+    public init() {
         self.init(gradientWidth: GradientProperties.defaultGradientWidth,
                   gradientColors: GradientProperties.defaultGradientColors,
                   slidingProperties: GradientProperties.defaultSlidingProperties)
     }
     
-    private static let defaultGradientWidth = UIScreen.main.bounds.width / 2.2
-    private static let defaultGradientColors = [
+    public static let defaultGradientWidth = UIScreen.main.bounds.width / 2.2
+    public static let defaultGradientColors = [
         GradientColor(
             color:
             UIColor(red: 241.0 / 255.0,
@@ -57,5 +57,5 @@ public struct GradientProperties {
                     alpha: 1.0),
             location: 1.0)
     ]
-    private static let defaultSlidingProperties = SlidingProperties()
+    public static let defaultSlidingProperties = SlidingProperties()
 }
