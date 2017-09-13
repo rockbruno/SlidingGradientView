@@ -55,7 +55,6 @@
 				FD6A904B1EC8848A00AFFA47 /* Sources */,
 				FD6A90441EC8845F00AFFA47 /* Info.plist */,
 			);
-			name = SlidingGradientView;
 			path = SlidingGradientView;
 			sourceTree = "<group>";
 		};
@@ -113,7 +112,7 @@
 					FD6A903F1EC8845F00AFFA47 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 3PG7SEBUB3;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -279,7 +278,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -300,7 +300,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rockbruno.SlidingGradientView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
